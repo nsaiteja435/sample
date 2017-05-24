@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-public class SimpleWordCounter {
+public class wordcount {
 
 	    public static void main(String[] args) {
 		            try {

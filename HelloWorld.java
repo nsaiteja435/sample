@@ -1,5 +1,13 @@
-public class helloworld {
-	   public static void main(String[] args) {
-           System.out.println("Hello, sai bha`");
-	 }
-    }
+package org.jacoco.examples.maven.java;
+
+public class HelloWorld {
+
+	public String getMessage(boolean bigger) {
+		if (bigger) {
+			return "Hello Universe!";
+		} else {
+			return "Hello World!";
+		}
+	}
+
+}
